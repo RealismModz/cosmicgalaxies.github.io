@@ -1,0 +1,157 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg
+{
+    position: fixed;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    z-index: -1;
+    -youbkit-touch-callout: none;
+	-youbkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+.CosmicGalaxies
+{
+    font-family: 'Impact';
+    font-size: 45pt;
+    color: rgb(210,210,210);
+    display: inline-block;
+    position: relative;
+    top: -75px;
+    left: 10px;
+    -youbkit-touch-callout: none;
+	-youbkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    transition: .3s;
+    text-decoration: none;
+}
+.CosmicGalaxies:hover
+{
+    color: mediumpurple;
+    cursor: pointer;
+}
+
+.TK
+{
+    display: inline-block;
+    font-family: 'Impact';
+    font-size: 60px;
+    color: mediumpurple;
+    position: relative;
+    top: -75px;
+    -youbkit-touch-callout: none;
+	-youbkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    left: 10px;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: indigo;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+
+#navbar a.active
+{
+    background-color: mediumpurple;
+    color: white;
+
+
+}
+#navbar a.active:hover
+{
+    background-color: rebeccapurple;
+    text-decoration: underline solid;
+}
+
+#navbar a.inactive {
+  background-color: indigo;
+  color: white;
+}
+#navbar a.inactive:hover
+{
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: underline solid;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+
+.Discord
+{
+
+    background-color: rebeccapurple;
+    background-image: linear-gradient(purple, rebeccapurple, mediumpurple, deeppink, hotpink);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    z-index: 2;
+    font-size: 75px;
+    font-weight: bold;
+    position: relative;
+    top: 125px;
+    cursor: default;
+    transition: .3s;
+}
+
+.Discord:hover
+{
+    text-shadow: 5px 5px purple;
+    cursor: pointer;
+}
+
+#DiscordLogo
+{
+    transform: scale(8);
+    color: #738ADB;
+    position: relative;
+    top: 50px;
+}
+
